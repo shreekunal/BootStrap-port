@@ -1,3 +1,4 @@
+
 body {
     font-family: serif;
 }
@@ -19,12 +20,6 @@ body {
     font-weight: bold;
 }
 
-.box {
-    display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
-}
-
 .heading {
     display: flex;
     justify-content: center;
@@ -39,11 +34,10 @@ body {
 }
 
 .big-text {
-    /* font-size: 50px; */
     color: wheat !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     .text{
         font-size: 25px;
     }
