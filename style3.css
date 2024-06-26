@@ -1,0 +1,69 @@
+body {
+    font-family: serif;
+}
+
+.no-style {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.navbar {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    padding-right: 1cm;
+    font-weight: bold;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.514); */
+    border-radius: 1rem;
+}
+
+.heading>h2 {
+    font-weight: bold;
+    /* font-size: 50px; */
+}
+
+.big-text {
+    /* font-size: 50px; */
+    color: wheat !important;
+}
+
+@media (max-width: 600px) {
+    .text{
+        font-size: 25px;
+    }
+    .big-text {
+        font-size: 50px;
+    }
+    .welcome{
+        font-size: 40px;
+    }
+    #navbarText{
+        font-size: 25px;
+    }
+    body > nav > div > button{
+        height: 55px;
+    }
+    .navbar-toggler-icon{
+        width: 40px;
+    }
+    .web-icon{
+        width: 65px;
+        height: 45px;
+    }
+}
