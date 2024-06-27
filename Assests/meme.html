@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Poster</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
+
+    #Poster {
+      color: white;
+      text-align: center;
+      width: 50%;
+      /* margin-left: 25%;
+    margin-top: 100px; */
+      font-family: 'Libre Baskerville', cursive;
+      position: relative;
+      top: 100px;
+      left: 25%;
+    }
+
+    #img {
+      border: 5px white solid;
+      width: 100%;
+    }
+
+    @media(max-width:800px) {
+      #Poster {
+        width: 70%;
+        position: relative;
+        top: 50px;
+        left: 15%;
+      }
+
+      body {
+        background-color: rgb(34, 26, 26);
+      }
+
+      h1 {
+        font-size: 2rem;
+        color: aliceblue;
+      }
+
+      #img {
+        border: 3px solid;
+      }
+
+      p {
+        font-size: small;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="Poster">
+    <img id="img" src="https://media.baamboozle.com/uploads/images/75493/1592960501_38349" alt="MOD holding egg">
+    <h1>That Special Moment</h1>
+    <p>When you find the perfect avocado in the supermarket</p>
+  </div>
+</body>
+
+</html>
